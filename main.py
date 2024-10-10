@@ -14,7 +14,7 @@ def run_script(script_name):
         print(result.stdout)
 
 def main():
-    scripts = ["crawling.py", "post_process.py", "render.py"]
+    scripts = ["crawling.py", "post_process.py", "render.py", "convert.py"]
     
     for script in scripts:
         run_script(script)
